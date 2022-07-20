@@ -9,7 +9,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 ALIVE_PIC = START_PIC
 HOME_TEXT = " **ʜᴇʟʟᴏ sɪʀ [{}](tg://user?id={})** \n\n**ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.** **ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Mr_DiSasTer_XD)**"
-HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Mr_DiSasTer_XD)
+HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [Tᴇᴀᴍ мαяк](t.me/marrkmusic)
 » **sᴇᴛᴜᴘ ɢᴜɪᴅᴇ** :
 
 \u2022 sᴛᴀʀʀ ᴀ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
@@ -87,17 +87,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("• Aᴅᴅ ᴍᴇ ʙᴀʙʏ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
-                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url=f"https://t.me/TechQuard"),
             ],
             [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton(".|ɪʀᴏɴ|🇮🇳|♡|.", url="https://t.me/marrk85"),
+            ],
+            [
+                InlineKeyboardButton(".|ᴋᴀᴋᴀ|🇮🇳|♠|.", url="https://t.me/K_A_k_A_03"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -184,17 +187,20 @@ async def start(client: Client, message: Message):
     USERNAME = get_me.username
     buttons =  [
             [
-                InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("• Aᴅᴅ ᴍᴇ ʙᴀʙʏ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
-                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url=f"https://t.me/TechQuard"),
             ],
             [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton(".|ɪʀᴏɴ|🇮🇳|♡|.", url="https://t.me/marrk85"),
+            ],
+            [
+                InlineKeyboardButton(".|ᴋᴀᴋᴀ|🇮🇳|♠|.", url="https://t.me/K_A_k_A_03"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
