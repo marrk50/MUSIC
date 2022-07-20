@@ -1,9 +1,9 @@
 {
-    "name": "ɴɪxᴀ ᴍᴜsɪᴄ ʙᴏᴛ",
+    "name": "ᴍᴜsɪᴄ ʙᴏᴛ",
     "logo": "https://te.legra.ph/file/7efcc30c166d793ed98a5.jpg",
     "description": "ᴍᴜsɪᴄ ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴛʀᴇᴀᴍ ᴍᴜsɪᴄ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ғᴇᴀᴛᴜʀᴇs.",
-    "keywords": ["Nixa", "NIXA-MUSIC-BOT", "music", "voice chat", "telegram", "Private Music"],
-    "repository": "https://github.com/Sumit9969/NIXA-MUSIC-BOT",
+    "keywords": ["Iron", "IRON-MUSIC-BOT", "music", "voice chat", "telegram", "Private Music"],
+    "repository": "https://github.com/marrk50/MUSIC",
   "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -33,17 +33,17 @@
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "TechQuardSupport"
+            "value": "marrkmusic"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": "TechQuard"
+            "value": "bawara_mannn"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "5513481385"
+            "value": "2030475041"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
