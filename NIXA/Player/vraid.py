@@ -21,7 +21,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://te.legra.ph/file/084c206996897e2d42443.jpg"
+IMAGE_THUMBNAIL = "https://te.legra.ph/file/507a45293257abd93e1aa.jpg"
 HNDLR = '/'
 
 def ytsearch(query: str):
@@ -129,8 +129,8 @@ async def vraid(c: NIXA, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url="https://t.me/marrkmusic"),
+                            InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/bawara_mannn")
                         ],
                         [
                             InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
@@ -204,8 +204,8 @@ async def vraid(c: NIXA, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url="https://t.me/marrkmusic"),
+                            InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/bawara_mannn")
                         ],
                         [
                             InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
