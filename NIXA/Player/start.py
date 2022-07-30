@@ -9,7 +9,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 ALIVE_PIC = START_PIC
 HOME_TEXT = " **ʜᴇʟʟᴏ sɪʀ [{}](tg://user?id={})** \n\n**ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.** **ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [Tᴇᴀᴍ мαяк](t.me/marrkowner)**"
-HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [Tᴇᴀᴍ мαяк](t.me/marrkmusic)
+HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ [Tᴇᴀᴍ мαяк](t.me/craxymarrk)
 » **sᴇᴛᴜᴘ ɢᴜɪᴅᴇ** :
 
 \u2022 sᴛᴀʀʀ ᴀ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
@@ -90,7 +90,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("• Aᴅᴅ ᴍᴇ ʙᴀʙʏ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
-                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url=f"https://t.me/craxymarrk"),
                 InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ •", url=f"https://t.me/bawara_mannn"),
             ],
             [
